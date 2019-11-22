@@ -26,7 +26,7 @@ const Profile = ({ navigation }) => (
       <SvgBackground />
     </View>
 
-    <HeaderAccounts navigation={navigation} />
+    <HeaderAccounts />
 
     <ScrollView>
       <TouchLineItem

@@ -16,7 +16,7 @@ const Downloads = ({ navigation }) => (
       <SvgBackground />
     </View>
 
-    <Header navigation={navigation} title="Downloads" />
+    <Header title="Downloads" />
 
     <View style={styles.containerContent}>
       <View style={styles.containerIcon}>

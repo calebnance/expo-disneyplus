@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Image, StyleSheet, TouchableOpacity, Text, View } from 'react-native';
+import { withNavigation } from 'react-navigation';
 import { colors, device, fonts, gStyle, images } from '../constants';
 
 // icons
@@ -118,4 +119,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default HeaderAccounts;
+export default withNavigation(HeaderAccounts);

@@ -43,14 +43,12 @@ class ModalAddProfile extends React.Component {
   }
 
   render() {
-    const { navigation } = this.props;
     const { forKidsValue, text } = this.state;
 
     return (
       <View style={[gStyle.container, { backgroundColor: colors.black }]}>
         <HeaderManage
           backText="Cancel"
-          navigation={navigation}
           save
           saveActive={text !== ''}
           title="Create Profile"

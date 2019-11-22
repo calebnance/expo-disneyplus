@@ -15,7 +15,7 @@ const ProfileWatchlist = ({ navigation }) => (
       <SvgBackground />
     </View>
 
-    <Header navigation={navigation} showBack title="Watchlist" />
+    <Header showBack title="Watchlist" />
   </View>
 );
 

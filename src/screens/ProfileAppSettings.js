@@ -48,7 +48,7 @@ const ProfileAppSettings = ({ navigation }) => {
       </View>
 
       <ScrollView>
-        <Header navigation={navigation} showBack title="App Settings" />
+        <Header showBack title="App Settings" />
 
         <View style={styles.containerHeading}>
           <Text style={styles.heading}>Video Playback</Text>
