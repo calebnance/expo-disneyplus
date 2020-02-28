@@ -54,4 +54,5 @@ Run Project Locally: `expo start` or `yarn dev`
   - Search
   - Downloads
   - Profile
+- started with [React Navigation v3](https://reactnavigation.org/docs/3.x/getting-started)
 - started with [Expo SDK 35](https://blog.expo.io/expo-sdk-35-is-now-available-beee0dfafbf4)
