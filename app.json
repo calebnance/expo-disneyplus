@@ -5,7 +5,6 @@
     "scheme": "disneyplusclone",
     "slug": "disneyplusclone",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
     "version": "0.0.1",
     "platforms": ["android", "ios", "web"],
     "githubUrl": "https://github.com/calebnance/expo-disneyplus",
