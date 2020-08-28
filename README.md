@@ -25,9 +25,9 @@ Run Project Locally: `expo start` or `yarn dev`
 
 ## Stats
 
-- Expo SDK 36
+- Expo SDK 38
 - iOS and Android
-- React Navigation v3
+- React Navigation v4
 - PropTypes
 
 ## Linting
@@ -47,6 +47,9 @@ Run Project Locally: `expo start` or `yarn dev`
 
 ### version 0.0.1 (current)
 
+- upgraded to [Expo SDK 38](https://blog.expo.io/expo-sdk-38-is-now-available-ab6cd30ca2ee)
+- started with [React Navigation v4](https://reactnavigation.org/docs/4.x/getting-started)
+- upgraded to [Expo SDK 37](https://blog.expo.io/expo-sdk-37-is-now-available-dd5770f066a6)
 - upgraded to [Expo SDK 36](https://blog.expo.io/expo-sdk-36-is-now-available-b91897b437fe)
 - iOS and Android
 - Tab Navigation

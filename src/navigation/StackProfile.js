@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Image, StyleSheet, View } from 'react-native';
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import { colors, images } from '../constants';
 
 import navigationOptions from './defaultOptions';
