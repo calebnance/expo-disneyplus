@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Expo Disney+",
-    "description": "disneyplus clone with expo",
+    "description": "disney+ clone with expo",
     "scheme": "disneyplusclone",
     "slug": "disneyplusclone",
     "privacy": "public",
@@ -15,9 +15,6 @@
       "backgroundColor": "#070525",
       "image": "src/assets/splash.png",
       "resizeMode": "contain"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
