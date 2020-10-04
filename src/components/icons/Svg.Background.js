@@ -15,4 +15,4 @@ const SvgBackground = () => (
   </Svg>
 );
 
-export default SvgBackground;
+export default React.memo(SvgBackground);

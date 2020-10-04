@@ -26,4 +26,4 @@ SvgCategoryBackground.propTypes = {
   width: PropTypes.number
 };
 
-export default SvgCategoryBackground;
+export default React.memo(SvgCategoryBackground);
