@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Carousel from 'react-native-snap-carousel';
 import { device, images } from '../constants';
 

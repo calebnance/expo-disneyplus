@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Image, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { colors, device, images } from '../constants';
 

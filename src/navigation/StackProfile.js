@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Image, StyleSheet, View } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';

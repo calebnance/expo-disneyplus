@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Svg, { Defs, LinearGradient, Rect, Stop } from 'react-native-svg';
 
 const SvgBackground = () => (
