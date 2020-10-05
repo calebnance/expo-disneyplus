@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { StyleSheet, Text, View } from 'react-native';
 import { colors, fonts, gStyle } from '../constants';
 
@@ -10,7 +9,7 @@ import Header from '../components/Header';
 import SvgBackground from '../components/icons/Svg.Background';
 import SvgDownloads from '../components/icons/Svg.Downloads';
 
-const Downloads = ({ navigation }) => (
+const Downloads = () => (
   <View style={gStyle.container}>
     <View style={gStyle.posAbsolute}>
       <SvgBackground />
@@ -31,11 +30,6 @@ const Downloads = ({ navigation }) => (
     </View>
   </View>
 );
-
-Downloads.propTypes = {
-  // required
-  navigation: PropTypes.object.isRequired
-};
 
 const styles = StyleSheet.create({
   containerContent: {

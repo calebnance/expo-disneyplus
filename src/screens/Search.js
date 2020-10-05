@@ -1,12 +1,11 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { ScrollView, View } from 'react-native';
 import { gStyle } from '../constants';
 
 // icons
 import SvgBackground from '../components/icons/Svg.Background';
 
-const Search = ({ navigation }) => (
+const Search = () => (
   <View style={gStyle.container}>
     <View style={gStyle.posAbsolute}>
       <SvgBackground />
@@ -17,10 +16,5 @@ const Search = ({ navigation }) => (
     </ScrollView>
   </View>
 );
-
-Search.propTypes = {
-  // required
-  navigation: PropTypes.object.isRequired
-};
 
 export default Search;

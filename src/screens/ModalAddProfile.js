@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import {
   Alert,
   Image,
@@ -80,11 +79,6 @@ class ModalAddProfile extends React.Component {
     );
   }
 }
-
-ModalAddProfile.propTypes = {
-  // required
-  navigation: PropTypes.object.isRequired
-};
 
 const BLOCK_SIZE = 108;
 

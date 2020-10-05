@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
 import { colors, fonts, gStyle } from '../constants';
@@ -32,7 +31,7 @@ const alertDeleteDownloads = () => {
   );
 };
 
-const ProfileAppSettings = ({ navigation }) => {
+const ProfileAppSettings = () => {
   const { platform } = Constants;
   let deviceType = 'Unknown Device';
 
@@ -100,11 +99,6 @@ const ProfileAppSettings = ({ navigation }) => {
       </ScrollView>
     </View>
   );
-};
-
-ProfileAppSettings.propTypes = {
-  // required
-  navigation: PropTypes.object.isRequired
 };
 
 const styles = StyleSheet.create({

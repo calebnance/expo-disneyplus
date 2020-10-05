@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { View } from 'react-native';
 import { gStyle } from '../constants';
 
@@ -9,7 +8,7 @@ import Header from '../components/Header';
 // icons
 import SvgBackground from '../components/icons/Svg.Background';
 
-const ProfileWatchlist = ({ navigation }) => (
+const ProfileWatchlist = () => (
   <View style={gStyle.container}>
     <View style={gStyle.posAbsolute}>
       <SvgBackground />
@@ -18,10 +17,5 @@ const ProfileWatchlist = ({ navigation }) => (
     <Header showBack title="Watchlist" />
   </View>
 );
-
-ProfileWatchlist.propTypes = {
-  // required
-  navigation: PropTypes.object.isRequired
-};
 
 export default ProfileWatchlist;

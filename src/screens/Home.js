@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import { StyleSheet, Text, View } from 'react-native';
 import { ScrollView } from 'react-navigation';
 import { device, gStyle } from '../constants';
@@ -13,7 +12,7 @@ import SlideShow from '../components/SlideShow';
 import SvgBackground from '../components/icons/Svg.Background';
 import SvgDisneyPlusLogo from '../components/icons/Svg.DisneyPlusLogo';
 
-const Home = ({ navigation }) => (
+const Home = () => (
   <View style={gStyle.container}>
     <View style={gStyle.posAbsolute}>
       <SvgBackground />
@@ -50,11 +49,6 @@ const Home = ({ navigation }) => (
     </ScrollView>
   </View>
 );
-
-Home.propTypes = {
-  // required
-  navigation: PropTypes.object.isRequired
-};
 
 const styles = StyleSheet.create({
   containerHeader: {
