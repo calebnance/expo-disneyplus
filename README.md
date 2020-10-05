@@ -13,7 +13,7 @@
 - [Install & Build](#install--build)
 - [Features](#features)
 - [Linting](#linting)
-- [Demo & Release Notes](#release-notes)
+- [Release Notes](#release-notes)
 
 ## Install & Build
 
