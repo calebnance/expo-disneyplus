@@ -19,7 +19,7 @@ class SlideShow extends React.Component {
 
     return (
       <Carousel
-        ref={c => {
+        ref={(c) => {
           this.carousel = c;
         }}
         autoplay

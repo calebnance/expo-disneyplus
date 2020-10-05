@@ -20,7 +20,7 @@ const Categories = () => {
 
   return (
     <View style={styles.container}>
-      {categoriesData.map(item => {
+      {categoriesData.map((item) => {
         return (
           <TouchableOpacity
             activeOpacity={0.7}

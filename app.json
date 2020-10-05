@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Expo Disney+",
-    "description": "disney+ ui clone with expo",
+    "description": "Disney+ UI Clone with Expo",
     "scheme": "disneyplusclone",
     "slug": "disneyplusclone",
     "privacy": "public",

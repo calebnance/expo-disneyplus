@@ -61,7 +61,7 @@ class ModalAddProfile extends React.Component {
             autoCapitalize="none"
             autoFocus
             keyboardAppearance="dark"
-            onChangeText={input => this.setState({ text: input })}
+            onChangeText={(input) => this.setState({ text: input })}
             selectionColor={colors.storageBlue}
             style={styles.input}
             value={text}
@@ -70,7 +70,7 @@ class ModalAddProfile extends React.Component {
           <View style={styles.containerSwitch}>
             <Text style={styles.switchLabel}>For Kids</Text>
             <Switch
-              onValueChange={val => this.handleSwitchChange(val)}
+              onValueChange={(val) => this.handleSwitchChange(val)}
               value={forKidsValue}
             />
           </View>
