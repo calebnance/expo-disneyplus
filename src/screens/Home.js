@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   containerHeader: {
     alignItems: 'center',
     marginBottom: 8,
-    paddingTop: device.iPhoneX ? 30 : 6
+    paddingTop: device.iPhoneNotch ? 30 : 6
   }
 });
 
