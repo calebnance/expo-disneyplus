@@ -34,8 +34,8 @@ const Downloads = () => (
 const styles = StyleSheet.create({
   containerContent: {
     alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1
+    flex: 1,
+    justifyContent: 'center'
   },
   containerIcon: {
     alignItems: 'center',

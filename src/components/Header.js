@@ -2,7 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { withNavigation } from 'react-navigation';
-import { colors, device, fonts } from '../constants';
+import { colors, device, fonts, gStyle } from '../constants';
 
 import SvgArrowLeft from './icons/Svg.ArrowLeft';
 
@@ -24,7 +24,7 @@ const Header = ({ close, closeText, navigation, showBack, title }) => (
       </View>
     )}
 
-    {showBack && !close && <View style={{ flex: 1 }} />}
+    {showBack && !close && <View style={gStyle.flex1} />}
 
     {close && (
       <TouchableOpacity
@@ -83,8 +83,8 @@ const styles = StyleSheet.create({
   close: {
     alignItems: 'flex-end',
     flex: 1,
-    justifyContent: 'center',
-    height: 35
+    height: 35,
+    justifyContent: 'center'
   },
   closeText: {
     color: colors.white,

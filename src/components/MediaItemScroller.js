@@ -10,7 +10,7 @@ const MediaItemScroller = ({ dataset }) => {
 
   return (
     <FlatList
-      contentContainerStyle={{ paddingLeft: 16, paddingRight: 8 }}
+      contentContainerStyle={styles.containerFlatList}
       data={dataArray}
       horizontal
       keyExtractor={({ id }) => id.toString()}
@@ -21,7 +21,7 @@ const MediaItemScroller = ({ dataset }) => {
           <View style={styles.placeholder} />
         );
 
-        return <View style={styles.container}>{renderItem}</View>;
+        return <View style={styles.item}>{renderItem}</View>;
       }}
       showsHorizontalScrollIndicator={false}
     />
@@ -38,7 +38,11 @@ MediaItemScroller.propTypes = {
 };
 
 const styles = StyleSheet.create({
-  container: {
+  containerFlatList: {
+    paddingLeft: 16,
+    paddingRight: 8
+  },
+  item: {
     borderRadius: 4,
     height: 130,
     marginRight: 8,

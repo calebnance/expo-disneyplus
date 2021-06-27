@@ -85,8 +85,8 @@ const styles = StyleSheet.create({
   },
   username: {
     color: colors.inactiveGrey,
-    fontSize: 12,
     fontFamily: fonts.medium,
+    fontSize: 12,
     marginTop: 4
   },
   usernameActive: {
