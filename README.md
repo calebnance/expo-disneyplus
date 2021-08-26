@@ -1,4 +1,4 @@
-# Disney+: UI Clone with Expo
+# Disney+: UI Clone with React Native / Expo
 
 [![follow @calebnance](https://img.shields.io/twitter/follow/calebnance.svg?style=for-the-badge&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=20&color=lightgray)](https://twitter.com/calebnance)
 
