@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
+import * as Device from 'expo-device';
 import { colors, fonts, gStyle } from '../constants';
 
 // components
@@ -37,7 +38,7 @@ const ProfileAppSettings = () => {
 
   // is iOS?
   if (typeof platform.ios !== 'undefined') {
-    deviceType = platform.ios.model;
+    deviceType = Device.modelName;
   }
 
   return (
