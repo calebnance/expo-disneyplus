@@ -15,11 +15,13 @@
 
 ## Install & Build
 
-First, make sure you have Expo CLI installed: `npm install -g expo-cli`
+First, make sure you have installed on your machine:
+  - [Yarn](https://classic.yarnpkg.com/en/docs/install): `npm install --global yarn`
+  - Expo CLI: `npm install -g expo-cli`
 
 Install: `yarn` or `yarn install`
 
-Run Project Locally: `expo start` or `yarn dev`
+Run Project Locally: `yarn dev` or `expo start`
 
 ## Features
 
@@ -43,7 +45,7 @@ Run Project Locally: `expo start` or `yarn dev`
 
 ## Release Notes
 
-### version 0.0.1 (current)
+**version 0.0.1 (current)**
 
 - upgraded to [Expo SDK 45](https://blog.expo.dev/expo-sdk-45-f4e332954a68)
 - upgraded to [Expo SDK 44](https://blog.expo.dev/expo-sdk-44-4c4b8306584a)
