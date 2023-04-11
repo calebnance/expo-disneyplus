@@ -25,7 +25,7 @@ Run Project Locally: `yarn dev` or `expo start`
 
 ## Features
 
-- Expo SDK 45
+- Expo SDK 46
 - iOS and Android
 - React Navigation v4
 - PropTypes
@@ -47,6 +47,7 @@ Run Project Locally: `yarn dev` or `expo start`
 
 **version 0.0.1 (current)**
 
+- upgraded to [Expo SDK 46](https://blog.expo.dev/expo-sdk-46-c2a1655f63f7)
 - upgraded to [Expo SDK 45](https://blog.expo.dev/expo-sdk-45-f4e332954a68)
 - upgraded to [Expo SDK 44](https://blog.expo.dev/expo-sdk-44-4c4b8306584a)
 - upgraded to [Expo SDK 43](https://blog.expo.dev/expo-sdk-43-aa9b3c7d5541)
